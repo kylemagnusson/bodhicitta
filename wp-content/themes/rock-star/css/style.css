@@ -1,0 +1,288 @@
+#masthead {
+  background: #111111 !important;
+}
+.home {
+  background-image: url(/wp-content/themes/rock-star/images/bodhicitta-oil.jpg) !important;
+}
+.home h1.entry-title {
+  display: none !important;
+}
+.home .entry-title {
+  text-align: left !important;
+}
+@media (max-width: 767px) {
+  .home .entry-title {
+    text-align: center !important;
+  }
+}
+.home .header-image-slider {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.home .col-sm-5 {
+  padding-right: 0px !important;
+}
+@media (max-width: 767px) {
+  .home .col-sm-5 {
+    padding-left: 0px !important;
+  }
+}
+.home .col-sm-7 {
+  padding-left: 0px !important;
+}
+@media (max-width: 767px) {
+  .home .col-sm-7 {
+    padding-right: 0px !important;
+  }
+}
+.home .site-content {
+  margin-top: -190px;
+}
+@media screen and (min-width: 910px) {
+  .home .site-content {
+    margin-top: -165px;
+  }
+}
+.sidebar {
+  display: none !important;
+}
+#primary {
+  width: 100% !important;
+}
+#site-generator {
+  display: none !important;
+}
+#footer {
+  background-color: #111;
+  clear: both;
+  display: block;
+  text-align: center;
+  padding: 20px 0px;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  top: auto;
+}
+#footer p {
+  margin: 0px !important;
+  padding-top: 10px;
+}
+#footer ul {
+  display: block;
+  margin: 0px;
+}
+#footer ul li {
+  display: inline-block;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+#footer ul li:nth-child(1) a {
+  background-image: url(/wp-content/themes/rock-star/images/facebook-icon.png);
+}
+#footer ul li:nth-child(2) a {
+  background-image: url(/wp-content/themes/rock-star/images/jambase-icon.png);
+}
+#footer ul li:nth-child(3) a {
+  background-image: url(/wp-content/themes/rock-star/images/youtube-icon.png);
+}
+#footer ul li a {
+  height: 50px;
+  width: 50px;
+  display: block;
+  cursor: pointer;
+}
+.header-image-slider {
+  display: none !important;
+  margin-top: 122px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 300px) {
+  .header-image-slider {
+    width: 92%;
+  }
+}
+@media screen and (min-width: 601px) {
+  .header-image-slider {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header-image-slider {
+    width: 88%;
+  }
+}
+@media screen and (min-width: 910px) {
+  .header-image-slider {
+    width: 86%;
+  }
+}
+.site-content {
+  padding: 145px 0 145px !important;
+}
+.entry-title {
+  clear: both;
+  color: #ddd !important;
+  font-family: 'Courgette', cursive !important;
+  font-weight: normal !important;
+  line-height: 1.3;
+  text-rendering: optimizeLegibility;
+  text-align: center !important;
+  text-shadow: 0px 3px 9px #000;
+}
+#hoppening-2 .widget-title {
+  display: none;
+}
+.name-title {
+  text-align: center;
+  margin-top: -8px;
+}
+@media (max-width: 767px) {
+  .name-title {
+    padding-bottom: 35px;
+  }
+}
+.members {
+  margin: 0 auto;
+  display: initial;
+}
+@media (min-width: 768px) {
+  .members .row-1 {
+    padding-bottom: 50px;
+  }
+}
+.members h3 {
+  margin: 0 0 8px;
+  text-shadow: 0px 3px 9px #000;
+}
+.members h4 {
+  text-shadow: 0px 3px 9px #000;
+}
+.members img:hover {
+  opacity: 0.8;
+}
+.custom-background {
+  background-image: url(/wp-content/themes/rock-star/images/background.jpg) !important;
+  background-size: cover !important;
+}
+.home .header-image-slider {
+  display: block !important;
+}
+.page-id-2 .header-image-slider {
+  display: none !important;
+}
+.site-description {
+  font-size: 16px !important;
+}
+.site-branding {
+  padding: 20px 0 !important;
+}
+#header-featured-image img {
+  width: 100% !important;
+  max-width: 1200px !important;
+}
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.form-container .form-text {
+  text-align: center;
+}
+.form-container .wpcf7-submit {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.form-container input {
+  margin-bottom: 10px;
+}
+.form-container textarea {
+  margin-top: 10px;
+  resize: none;
+}
+.form-container label {
+  width: 100%;
+}
+.form-container label input {
+  width: 100%;
+  margin-top: 8px;
+}
+.video-area {
+  max-width: 767px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.video-area .video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 57%;
+  margin: 0px 0px 40px;
+}
+.video-area .video-container iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .fb-page {
+    text-align: center;
+    display: block !important;
+  }
+}
+.newspost {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  margin-bottom: 30px !important;
+}
+.newspost:last-child {
+  border-bottom: none !important;
+}
+.newspost span {
+  font-size: 21px;
+  margin-bottom: -20px;
+  display: block;
+}
+@media (min-width: 768px) {
+  .newspost img {
+    max-width: 200px;
+  }
+}
+.last-post {
+  border-bottom: none;
+  margin-bottom: 0px !important;
+}
+.main-navigation a {
+  font-style: italic;
+}
+p {
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+body {
+  height: auto !important;
+  min-height: 100% !important;
+  position: relative !important;
+}
+html {
+  height: 100%;
+}
+.backtotop {
+  z-index: 99999;
+}
+#hoppening-2 {
+  margin-bottom: 50px;
+}
+.news-area {
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=style.css.map */
