@@ -52,3 +52,8 @@ t4c/
 test/
 xmlrpc.php
 y_key_8cb555f5ce02b78a.html
+
+# ignore node dependency directories (used by grunt)
+node_modules/
+
+!Gruntfile.js
